@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    padding-top:100px;
+    background-color: #EEA990;
+}
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background-color: #66545E;
+    height: 75px;
+    position: fixed;
+    right: 0;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:0;
+}
+#header-p{
+    color:white;
+    font-size: 23px;
+    margin:0;
+}
+.combine{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap:0;
+}
+.icon{
+    height: 38px;
+    margin-right: -1;
+    border:none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.personal-info{
+    padding:11px;
+    border:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    outline: none;
+    transition: 0.6s;
+}
+.personal-info::placeholder{
+    font-family: Arial;   
+}
+.video-section{
+    margin-top:100px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 10px;
+    margin:auto;
+}
+.video-preview{
+    height: 400px;
+    border-radius: 20px;
+    border:7px solid #66545E;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #C6F8E5;
+    transition: 0.7s;
+}
+.Thumbnail{
+    height: 65%;
+}
+.thumb{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.Title{
+    font-size:25px;
+    margin-left: 10px;
+}
+.Descript{
+    font-size: 13px;
+    margin:4px;
+    
+
+}

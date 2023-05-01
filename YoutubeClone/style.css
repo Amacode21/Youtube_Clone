@@ -1,0 +1,54 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.First-div{
+    margin-bottom:10px;
+    position: relative;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.Thumbnail{
+  width: 100%;
+}
+.Title-Video{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.Second-div{
+    margin-top: 10px;
+}
+.Views{
+    margin-top: 1px;
+}
+.Authour{
+    margin-bottom:4px;
+}
+.Authour,.Views{
+    font-size: 13px;
+    color:rgb(100, 100, 100);
+}
+.Image{
+    width: 40px;
+    border-radius: 50%;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 38px;
+}
+.video-time{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px;
+    background-color: black;
+    color:white;
+    position: absolute;
+    right:5px;
+    bottom:8px;
+    opacity: 0.9;
+}
